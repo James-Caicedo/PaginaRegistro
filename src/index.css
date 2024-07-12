@@ -10,8 +10,7 @@
 
 body {
   display: flex;
-  justify-content: left;
-  margin-left: 30%;
+  justify-content: center;
   align-items: center;
   background: url('./Components/Assets/background.jpg')no-repeat;
   background-size: cover;
