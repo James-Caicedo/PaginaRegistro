@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import './LoginForm.css'
+import React, { useState } from 'react';
+import './LoginForm.css';
 import { FaUserAlt, FaUnlockAlt, FaEnvelope } from "react-icons/fa";
 
 const LoginForm = () => {
@@ -7,17 +7,18 @@ const LoginForm = () => {
     const [action, setAction] = useState('');
 
     const registerLink = () => {
-        setAction('active');
+        setAction (' active');
     };
 
     const loginLink = () => {
-        setAction('');
+        setAction ('');
     };
 
 
 
+    
     return (
-        <div className={`wrapper${action}`}>
+        <div className= {`wrapper${action}`}>
             <div className='form-box login'>
                 <form action="">
                     <h1>Login</h1>
@@ -67,7 +68,6 @@ const LoginForm = () => {
                     </div>
                 </form>
             </div>
-
         </div>
 
 
